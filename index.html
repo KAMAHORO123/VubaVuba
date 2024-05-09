@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VubaVuba | Your Order. We Deliver | Food Delivery and Takeout | Order from Merchants Near You</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&amp;display=swap" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="icon" href="assets/logo-browser-head.png">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html"><img src="assets/logow.webp" alt="logo" class="icon"></a>
+        <div class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#how-it-works">How-It-Works</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#cities">Cities</a></li>
+                <li><a href="#join-us">Join-Us</a></li>
+                <li><a href="#get-in-touch">Get-In-Touch</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="header" id="home">
+        <div class="text-box">
+            <p>Grow your business with Vuba Vuba
+                Partner with Vuba Vuba Today to reach new
+                customers, increase order volume, and drive
+                more sales</p>
+        </div>
+    </section>
+    <section class="downld" id="download">
+
+        <img src="./assets/greencross.png" alt="greencross" id="greencross">
+        <img src="./assets/guy-with-pizza.webp" alt="guy-with-pizza" id="guy-with-pizza">
+        <div class="slider-numbers">
+            <div id="slide-circle-1" class="circle active-circle" onclick="showSlide(1)">
+                1
+            </div>
+            <div id="slide-circle-2" class="circle" onclick="showSlide(2)">
+                2
+            </div>
+            <div id="slide-circle-3" class="circle" onclick="showSlide(3)">
+                3
+            </div>
+        </div>
+        <div id="downloadcontent">
+            <h1>Download Our App</h1>
+            <p>Order anything and track it in real time with the Vuba Vuba App.
+                Available on iOS and Android</p>
+        </div>
+        <div class="image-links">
+            <img src="https://www.vubavuba.rw/assets/download-app-how-it-works/applestore.svg" alt="apple-link"
+                id="apple-store">
+            <img src="https://www.vubavuba.rw/assets/download-app-how-it-works/google-play-badge.svg"
+                alt="playstore-link" id="playstore">
+        </div>
+    </section>
+    <section class="how-it works" id="how-it-works">
+        <p id="how-it">How does it work?</p>
+        <div class="course-col1">
+            <img src="assets/cart.png" alt="cart" id="cart">
+            <h1 id="h1">1. Place your order</h1>
+            <p id="p1">It's free to order, so save time tackling your
+                to-do list at home, at work, or on the go.
+                Ordering from Vuba Vuba is quick and easy.
+                Simply browse our selection, add items to
+                your cart, and proceed to checkout.</p>
+        </div>
+        <div class="course-col2">
+            <img src="assets/ordertrack.png" alt="ordertrack" id="ordertrack">
+            <h1 id="h2">2. Order Tracking</h1>
+            <p id="p2">Get your favorite food delivered in a flash.
+                You’ll see when your rider’s picked up your
+                order, and be able to follow them along the
+                way. You’ll get a notification when they’re
+                nearby, too.</p>
+        </div>
+        <div class="course-col3">
+            <img src="assets/deliverytimeframes.png" alt="deliverytimeframes" id="timeframe">
+            <h1 id="h3">3. Delivery Timeframes</h1>
+            <p id="p3">Our team works diligently to ensure prompt order
+                processing and delivery. The estimated delivery time frame
+                depends on your location. Typically, you can expect your
+                order to arrive within 45 minutes.</p>
+        </div>
+    </section>
+    <section class="faq" id="faq">
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first">
+                    <label for="first">How Does VubaVuba Work?</label>
+                    <div class="content">
+                        <p>Vuba Vuba makes it easy to order from your favorite restaurants. Shop for
+                            items from grocery stores near you, with a selection of more than 600+
+                            merchants and trusted local grocers.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="second">What payment methods do you accept??</label>
+                    <div class="content">
+                        <p>We accept various payment methods to accommodate your preferences. You
+                            can securely complete your purchase using Visa/Mastercard, SmartCash,
+                            Mobile Money, Spenn and Vuba Wallet. Your payment information is
+                            encrypted and protected throughout the transaction.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third">Do you offer discounts or promotions?</label>
+                    <div class="content">
+                        <p>Yes. We have daily buy one get one free deals on
+                            all orders every wednesday 2nd and 3rd week of the month from 2:30 PM till 5:00 PM.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fourth">
+                    <label for="fourth">Can I track my order?</label>
+                    <div class="content">
+                        <p>Yes, You'll be able to track your rider's movements and see when they pick up
+                            your order. Additionally, you'll get notified when they're close by.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fifth">
+                    <label for="fifth">How can I contact customer support?</label>
+                    <div class="content">
+                        <p>We have a whatsapp helpline which allows clients to chat with our customer
+                            service representatives in real-time.</p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="sixth">
+                    <label for="sixth">How can I provide feedback or make suggestions?</label>
+                    <div class="content">
+                        <p>You can provide feedback or make suggestions through the app in the
+                            merchants tab.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="course" id="cities">
+        <h1>Cities We are In <img src="./assets/location.png" alt=""></h1>
+        <img src="./assets/imigongo3.png" alt="" id="imigongo3">
+        <div class="row">
+            <div class="course-col">
+                <h3 id="h3">Musanze <img src="./assets/location.png" alt=""></h3>
+                <img src="./assets/musanze.jpg" alt="" id="location-img">
+            </div>
+            <div class="course-col">
+                <h3 id="h3">Kigali City <img src="./assets/location.png" alt=""> </h3>
+                <img src="./assets/kigali.jpeg" alt="" id="location-img">
+            </div>
+            <div class="course-col">
+                <h3 id="h3">Rubavu <img src="./assets/location.png" alt=""></h3>
+                <img src="./assets/rubavu.jpg" alt="" id="location-img">
+            </div>
+        </div>
+        <img src="./assets/imigongo1.png" alt="" id="imigongo1">
+        <img src="./assets/imigongo2.png" alt="" id="imigongo2">
+    </section>
+    <section class="join-us" id=join-us>
+        <h1>Want to list your business on VubaVuba ?</h1>
+        <p>Expand your business reach, grow your customer base, and streamline delivery with Vuba Vuba. Contact us to
+            thrive in the digital age and begin our journey together!</p>
+        <button id="join-us-btn">Join Us</button>
+    </section>
+    <section class="get-in-touch" id="get-in-touch">
+        <div id="get-in-touch" class="get-in-touch">
+            <div class="title">GET IN TOUCH</div>
+
+            <!-- <div class="icons-tel">
+
+        </div> -->
+
+            <div class="border">
+                <div class="switcher">
+                    <div id="general-inq" onclick="onToggleGetInTouch(1)" class="general active">
+                        General Inquiries
+                    </div>
+                    <div id="partner-inq" onclick="onToggleGetInTouch(2)" class="partners inactive">
+                        Partner inquiries
+                    </div>
+
+
+                    <form action="/submit-form" method="POST" id="form-data">
+
+
+                </div>
+                <!-- This input keeps selected party value (general or partner) -->
+                <input name='ctype' id="selectedParty" type="hidden" value="general" />
+                <div class="inputs">
+                    <div class="name-email">
+                        <div class="name">
+                            <input type="text" name='name' placeholder="Your name" required />
+                        </div>
+                        <div class="email">
+                            <input type="email" name='email' placeholder="Email" required />
+                        </div>
+                    </div>
+                    <div class="tel">
+                        <input type="text" placeholder="Your tel number" name='phone' required />
+                    </div>
+                    <div class="message">
+                        <textarea placeholder="Message" name="message" id="" rows="7"></textarea>
+                    </div>
+                    <div class="get-in-touch-submit-button">
+                        <button type="submit" class="g-recaptcha btn"
+                            data-sitekey="6LdCOm0oAAAAAMn1zKUGG3ZQMM28oBVXiPXUB_PY">
+                            <span>Send</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            </form>
+        </div>
+
+
+    </section>
+    <!-- <div class="footer">
+        <h2>Questions? call 0787635830</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Investor relations</a>
+                <a href="#">Privacy</a>
+                <a href="#">Speed Test</a>
+            </div>
+            <div class="col">
+                <a href="#">Help Center</a>
+                <a href="#">Jobs</a>
+                <a href="#">Cookies Preferences</a>
+                <a href="#">Legal Notices</a>
+            </div>
+            <div class="col">
+                <a href="#">Account</a>
+                <a href="#">Ways to Watch</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Only on Netflix</a>
+            </div>
+            <div class="col">
+                <a href="#">Media Center</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Contact us</a>
+            </div> 
+        </div>
+        <button class="language-btn">English <img src="images/down-icon.png"></button>
+        <p class="copyright-text">This Netflix was done by Linda</p>
+    </div> -->
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#how-it-works">How-It-Works</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#cities">Cities</a></li>
+            <li><a href="#join-us">Join-Us</a></li>
+            <li><a href="#get-in-touch">Get-In-Touch</a></li>
+        </ul>
+        <p>©2024 VubaVuba Web App | All Rights Reserved</p>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+    <script src="db.js"></script>
+    <script src="style.js"></script>
+    <script>
+  $(document).ready(()=>{
+
+    
+    $("#form-data").submit(()=>{
+        
+       $.ajax({
+        type:'post',
+        url:"/submit-form",
+        data:$(this).serialize(),
+        success:function(response){
+        alert(response)
+        },
+        error:function(error){
+            console.log(error)
+        }
+       })
+    })
+  })
+    </script>
+</body>
+
+</html>
